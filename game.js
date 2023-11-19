@@ -57,8 +57,6 @@ function endGame() {
         roundResultDisplay.textContent = "Congratulations! You win the game!";
     } else if (compScore > playerScore) {
         roundResultDisplay.textContent = "Oops! Computer wins the game. Try again!";
-    } else {
-        roundResultDisplay.textContent = "It's a tie! Play again!";
     }
 
     playerScore = 0;
